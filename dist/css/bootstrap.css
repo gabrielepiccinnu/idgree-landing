@@ -12122,6 +12122,18 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.idgree-logo {
+  background-image: url(../img/idgree_logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 290px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .btn-idgree-icon {
   padding-left: 1.5rem !important;
 }
