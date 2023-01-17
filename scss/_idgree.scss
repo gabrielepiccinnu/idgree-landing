@@ -19,19 +19,18 @@
     padding-left: ($input-btn-padding-x)!important; 
 }
 
-.btn-idgree-icon::after {
+.idgree-icon::after {
     content: "";
-    display: block;
     background-repeat: no-repeat;
     background-size: contain; 
-    width: 16px;
-    height: 13px;
     display: inline-block;
-    margin-right: .925rem;
+    margin-right: .825rem;
 }
 
 .icon-login::after {
-    background-image: url(img/icon-login.svg);
+    background-image: url(../img/icon-login.svg);
+    width: 16px;
+    height: 13px;
 }
 
 .bg-idgree-vector-1 {
