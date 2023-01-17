@@ -35,11 +35,17 @@
     background-image: url(../img/idgree-bg-vector-1.svg);
     background-repeat: no-repeat;
     background-size: auto;
-    background-position-x: right;
-    background-position-y: 350px;
-    padding-bottom: 280px;
+    padding-bottom: .5rem;
 }
 
+@media screen and (min-width: 991px) {
+    .bg-idgree-vector-1 {
+        background-position-x: right;
+        background-position-y: 350px;
+        padding-bottom: 280px;
+    }
+}
+ 
 .bg-idgree-vector-2 {
     background-image: url('../img/idgree-bg-vector-2.svg');
     background-repeat: no-repeat;
