@@ -12100,7 +12100,21 @@ textarea.form-control-lg {
 }
 
 .btn-idgree-icon {
-  padding-right: 1.5rem !important;
+  padding-right: 0.75rem !important;
+}
+
+.idgree-icon::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-left: 0.825rem;
+}
+
+.icon-login::after {
+  background-image: url(../img/icon-login.svg);
+  width: 16px;
+  height: 13px;
 }
 
 .bg-idgree-vector-1 {
