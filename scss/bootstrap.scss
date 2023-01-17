@@ -11,8 +11,6 @@
 @import "mixins";
 @import "utilities";
 
-// IDGREE
-@import "idgree";
 
 
 // Layout & components
@@ -54,3 +52,7 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+
+
+// IDGREE
+@import "idgree";
